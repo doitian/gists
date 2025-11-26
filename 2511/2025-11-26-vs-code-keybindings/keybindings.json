@@ -93,7 +93,7 @@
   {
     "key": "ctrl+/",
     "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminalFocus || editorFocus"
+    "when": "terminal.active"
   },
   {
     "key": "ctrl+`",
