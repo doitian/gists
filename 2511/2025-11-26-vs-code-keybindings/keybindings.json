@@ -1,4 +1,4 @@
-// Place your key bindings in this file to override the defaults
+// https://github.com/doitian/gists/blob/main/2511/2025-11-26-vs-code-keybindings/keybindings.json
 [
   {
     "key": "alt+/",
@@ -96,8 +96,21 @@
     "when": "terminal.active"
   },
   {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
+    "key": "ctrl+alt+i",
+    "command": "composer.sendToAgent",
+    "when": "editorHasPromptBar && editorPromptBarFocused"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-composer.sendToAgent",
+    "when": "editorHasPromptBar && editorPromptBarFocused"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "aichat.newchataction"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-aichat.newchataction"
   }
 ]
