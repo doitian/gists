@@ -3,15 +3,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "editor.quickSuggestions": {
       "comments": false,
       "other": true,
       "strings": true
     }
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "catppuccin.accentColor": "mauve",
   "catppuccin.customUIColors": {
@@ -44,6 +40,12 @@
   "markdown.preview.fontFamily": "\"Atkinson Hyperlegible\",\"LXGW WenKai\",\"Symbols Nerd Font\",sans-serif",
   "markdown.preview.fontSize": 16,
   "markdown.preview.typographer": true,
+  "mise.autoDetectMiseBinPath": false,
+  "mise.automaticallyTrustMiseConfigFiles": false,
+  "mise.checkForNewMiseVersion": false,
+  "mise.configureExtensionsAutomatically": true,
+  "mise.showToolVersionsDecorations": false,
+  "mise.updateEnvAutomaticallyIncludePath": true,
   "remote.autoForwardPortsSource": "hybrid",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.confirmOnExit": "hasChildProcesses",
