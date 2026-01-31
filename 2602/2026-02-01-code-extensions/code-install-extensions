@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# code --list-extensions
+xargs -L1 -t code --install-extension <<<"
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+editorconfig.editorconfig
+elijah-potter.harper
+github.codespaces
+github.copilot
+github.copilot-chat
+ms-vscode-remote.remote-ssh
+rust-lang.rust-analyzer
+tekumara.typos-vscode
+vscodevim.vim
+zjffun.snippetsmanager
+"
