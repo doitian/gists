@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# cursor --list-extensions
+xargs -L1 -t cursor --install-extension <<<"
+anysphere.remote-ssh
+catppuccin.catppuccin-vsc
+catppuccin.catppuccin-vsc-icons
+editorconfig.editorconfig
+elijah-potter.harper
+rust-lang.rust-analyzer
+tekumara.typos-vscode
+vscodevim.vim
+"
