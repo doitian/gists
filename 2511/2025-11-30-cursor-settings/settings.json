@@ -29,15 +29,13 @@
   "editor.wordWrapColumn": 120,
   "editor.wrappingIndent": "deepIndent",
   "extensions.ignoreRecommendations": true,
+  "files.eol": "\n",
   "git.confirmSync": false,
   "markdown.preview.breaks": true,
   "markdown.preview.fontFamily": "\"Atkinson Hyperlegible\",\"LXGW WenKai\",\"Symbols Nerd Font\",sans-serif",
   "markdown.preview.fontSize": 16,
   "markdown.preview.typographer": true,
   "remote.autoForwardPortsSource": "hybrid",
-  "remote.SSH.remotePlatform": {
-    "d7l": "linux"
-  },
   "terminal.integrated.allowChords": false,
   "terminal.integrated.confirmOnExit": "hasChildProcesses",
   "terminal.integrated.cursorBlinking": true,
@@ -53,8 +51,6 @@
     }
   },
   "terminal.integrated.stickyScroll.enabled": false,
-  "update.mode": "silentlyApplyOnQuit",
-  "update.releaseTrack": "dev",
   "vim.insertModeKeyBindingsNonRecursive": [
     {
       "after": [
