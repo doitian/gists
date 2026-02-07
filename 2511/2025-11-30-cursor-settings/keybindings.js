@@ -49,4 +49,8 @@
     "key": "ctrl+alt+i",
     "command": "aichat.newchataction"
   },
+  {
+    "key": "ctrl+alt+`",
+    "command": "workbench.action.toggleMaximizedPanel"
+  }
 ]
