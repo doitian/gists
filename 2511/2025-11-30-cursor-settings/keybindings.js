@@ -1,5 +1,25 @@
 [
   {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-planEditor.toggleMode",
+    "when": "markdownPlanEditorActive"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdownEditor.toggleMode",
+    "when": "markdownEditorActive"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-notebook.cell.pasteAbove",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
     "key": "ctrl+/",
     "command": "-workbench.action.terminal.sendSequence",
     "when": "terminalFocus"
@@ -24,22 +44,23 @@
     "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+p",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
     "key": "ctrl+alt+p",
     "command": "workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+l",
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+p",
     "command": "-expandLineSelection",
     "when": "textInputFocus"
   },
   {
     "key": "ctrl+l",
-    "command": "-aichat.newchataction"
-  }
+    "command": "-aichat.newchataction",
+    "when": "activeEditor != 'workbench.editor.browserEditor'"
+  },
   {
     "key": "ctrl+k",
     "command": "deleteAllRight",
