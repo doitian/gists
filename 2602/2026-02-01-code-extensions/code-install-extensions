@@ -7,7 +7,6 @@ catppuccin.catppuccin-vsc-icons
 editorconfig.editorconfig
 elijah-potter.harper
 github.codespaces
-github.copilot
 github.copilot-chat
 ms-vscode-remote.remote-ssh
 rust-lang.rust-analyzer
