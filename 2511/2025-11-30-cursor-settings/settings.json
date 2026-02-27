@@ -29,9 +29,6 @@
   "markdown.preview.fontSize": 16,
   "markdown.preview.typographer": true,
   "remote.autoForwardPortsSource": "hybrid",
-  "rust-analyzer.diagnostics.disabled": [
-    "E0601"
-  ],
   "terminal.integrated.allowChords": false,
   "terminal.integrated.confirmOnExit": "hasChildProcesses",
   "terminal.integrated.cursorBlinking": true,
