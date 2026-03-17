@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/goodroot/hyprwhspr/main/share/config.schema.json",
+  "transcription_backend": "pywhispercpp",
+  "model": "large-v3-turbo",
+  "audio_ducking": true,
+  "mute_detection": false
+}
