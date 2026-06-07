@@ -1,0 +1,6 @@
+[tasks."g:add:cursor-agent"]
+description = "Install cursor-agent cli"
+dir = "~"
+shell = "{% if os() == 'windows' %}pwsh -NoLogo -NoProfile -Command{% else %}bash -c -o errexit{% endif %}"
+run = "curl https://cursor.com/install -fsS | bash"
+run_windows = "irm 'https://cursor.com/install?win32=true' | iex"
