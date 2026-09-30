@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/goodroot/hyprwhspr/main/share/config.schema.json",
+  "recording_mode": "continuous",
+  "keyboard_device_names": [
+    "keyd virtual keyboard",
+    "Ultimate Gadget Laboratories UHK 60 v1"
+  ],
+  "model": "large-v3-turbo",
+  "transcription_backend": "qwen3-asr",
+  "language": "en",
+  "mute_detection": false,
+  "audio_ducking": true,
+  "qwen3_asr_ctx_size": 8192,
+  "continuous_silence_seconds": 4.0
+}
